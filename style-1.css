@@ -1,0 +1,134 @@
+    body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+ .container{
+   width: 100%;
+   height: 100vh;
+   background: #0000;
+   display: flex;
+   justify-content: Center;
+   align-items: Center;
+ }
+ .y{
+   position: fixed;
+   width: 85%;
+   max-width: 400px;
+   height: 80vh;
+   max-height: 500px;
+   min-height: 400Px;
+   overflow: hidden;
+   overflow-y: auto;
+   flex-direction: column;
+   justify-content: Center;
+   justify-items: Center;
+   align-items: Center;
+   background-color: #737373;
+   border-radius: 60px;
+   z-index: 1;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+ }
+ form{
+   display: flex;
+   flex-direction: column;
+   align-items: Center;
+ }
+ form input, textarea{
+   border: 0;
+   outline: none;
+   margin: 10px 0;
+   padding: 20px;
+   border-radius: 30px;
+   background: #000000;
+   width: 75%;
+   max-width: 350px;
+   color: #A0A0A0;
+ }
+ input:focus{
+   transform: scale(1.15)
+ }
+ #submit{
+   padding: 15px;
+   background-color: #000000;
+   border: none;
+   font-size: 15px;
+   border-radius: 30px;
+   cursor: Pointer;
+   outline: none;
+   width: 150px;
+   color: #D9D9D9;
+   margin-bottom: 20px;
+ }
+ img{
+   padding: 30px;
+   border-radius: 20%;
+ }
+ .sama{
+   display: none;
+ }
+ .you button{
+  background: #000;
+  border:none;
+  border-radius: 50Px;
+  outline: none;
+}
+    #location{
+     position: fixed;
+    }
+
+.you{
+  background: #666;
+  border-radius: 30Px;
+}
+   
+#masseg{
+background:#666;
+position: fixed;
+word-wrap:break-word;
+width:60%;
+max-width:500px;
+/* height:60vh; */
+border-radius:40px;
+z-index: 0;
+padding:20px;
+overflow: hidden;
+overflow-y: auto;
+flex-direction: column;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+text-align:right;
+/*onfocus="text();   show();"*/
+ display:none; 
+}
+#masseg-h1{
+ font-size:2rem;
+ left:50%;
+ text-align:left;
+}
+#masseg-p{
+ color:#fff;
+  font-size:1rem;
+}
+#masseg-button{
+ padding: 10px;
+ background-color: #000000;
+ border: none;
+ font-size: 15px;
+ border-radius: 20px;
+ cursor: Pointer;
+ outline: none;
+ width: 50px;
+ color: #D9D9D9;
+ margin-bottom: 10px;
+  float: right;
+}
+
+
+
+  
